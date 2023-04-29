@@ -11,7 +11,7 @@ namespace appPrevencionRiesgos.Data
 
         public MongoDbContext()
         {
-            var settings = MongoClientSettings.FromConnectionString("mongodb+srv://admin:admin@cluster0.kvvx9em.mongodb.net/?retryWrites=true&w=majority");
+            var settings = MongoClientSettings.FromConnectionString("mongodb+srv://juancarrasco:MmlpVCDQEjk9XtqL@nosimportasdb.020in6e.mongodb.net/?retryWrites=true&w=majority");
             settings.ServerApi = new ServerApi(ServerApiVersion.V1);
             client = new MongoClient(settings);
             basicInformationDbContext = client.GetDatabase("BasicInformation");
