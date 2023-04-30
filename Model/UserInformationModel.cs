@@ -15,6 +15,7 @@ namespace appPrevencionRiesgos.Model.Security
         public string Phone { get; set; }
         public string City { get; set; }
         public string Province { get; set; }
+        public string ImageUrl { get; set; }
         public IList<IDictionary<string, string>>? ConfidenceUsers { get; set; }
     }
 }
